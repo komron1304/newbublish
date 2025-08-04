@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+    .header-inner,
+    .hero-content,
+    .features-grid,
+    .about-cards,
+    .video-container,
+    .stats {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .nav {
+      display: none;
+    }
+  
+    .auth {
+      justify-content: center;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
+  
+    .feature-card,
+    .card-dark,
+    .card-light {
+      width: 100%;
+      max-width: 300px;
+    }
+  
+    .video-text,
+    .video-frame {
+      width: 100%;
+    }
+  
+    .video-container {
+      gap: 1.5rem;
+    }
+  }
+  @media (max-width: 768px) {
+    .feature-row {
+      flex-direction: column;
+    }
+  
+    .feature-image, .feature-text {
+      max-width: 100%;
+    }
+  
+    .feature-text ul {
+      padding-left: 15px;
+    }
+  }
