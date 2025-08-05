@@ -380,11 +380,11 @@
     border-radius: 20px;
   }
   .move_tech{
-    width: 250px;
+    /* width: 250px; */
   }
   .free_for{
-    width: 250px;
-    margin: 20px 0px;
+    /* width: 250px; */
+    /* margin: 20px 0px; */
   }
   .very{
     border-radius: 20px;
@@ -393,9 +393,14 @@
   }
   .organizations{
     margin: 20px 300px;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .section_front{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
   }
   .birxil{
     text-align: center;
@@ -409,10 +414,12 @@
   .designed{
     background-color: #252641;
     text-align: center;
+    
   }
   .allows{
     display: flex;
     justify-content: center;
+    margin: 90px;
   }
   .easily{
     margin: 20px;
@@ -431,5 +438,16 @@
     color: white;
     display: inline-block;
     margin: 10px 5px;
+ }
+ .input{
+  display: flex;
+ max-width: 100%;
+  margin: 0;
+ }
+ .input_live{
+  width: 10px;
+ }
+ .margin{
+
  }
 
